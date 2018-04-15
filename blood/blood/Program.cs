@@ -50,7 +50,6 @@ namespace blood
                     Boy ++;
                     BoyP = (Boy / (double)Genders.Length) * 100;
                 }
-
                 if (Genders[l] == "女")
                 {
                     // 計算女生人數與百分比
@@ -101,27 +100,22 @@ namespace blood
                     {
                         TypeO++;
                     }
-
                     else if (BloodType[i] == "A")
                     {
                         TypeA++;
                     }
-
                     else if (BloodType[i] == "B")
                     {
                         TypeB++;
                     }
-
                     else if (BloodType[i] == "AB")
                     {
                         TypeAB++;
                     }
-
                     else
                     {
                         TypeElse++;
                     }
-
                 }
 
             // 計算百分比資料
