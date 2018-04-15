@@ -157,7 +157,7 @@ namespace blood
                 Console.WriteLine("全班平均身高:" + (sum / Total) + "cm");
                 Console.WriteLine("");
 
-            // 閱讀結果
+            // 停止畫面閱讀結果
                 Console.Read();
             }
         }
